@@ -32,9 +32,9 @@ LLVM=1
 "
 
 #device specific variables
-export DEVICE="S10_5G(KR)"
+export DEVICE="S10e"
 export SOC="exynos9820"
-export DEFCONFIG=exynos9820-beyondxks_defconfig
+export DEFCONFIG=exynos9820-beyond0lte_defconfig
 
 #symlinking python2
 if [ ! -f "$HOME/python" ]; then
